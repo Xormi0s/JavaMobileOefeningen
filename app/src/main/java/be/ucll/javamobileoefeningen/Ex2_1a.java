@@ -20,7 +20,9 @@ public class Ex2_1a extends AppCompatActivity {
     }
 
     public void implicit(View view) {
-        Intent intent = new Intent("be.ucll.myapp.Ex2_1b");
+        Intent intent = new Intent("be.ucll.javamobileoefeningen.Ex2_1b");
+        intent.setAction(Intent.ACTION_SEND);
+        intent.setType("text/plain");
         startActivity(intent);
     }
 }

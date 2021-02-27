@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.JavaMobileOefeningen">
-        <activity android:name=".Ex2_2b"></activity>
+        <activity android:name=".Ex2_2b">
+         </activity>
         <activity android:name=".Ex2_2a">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,9 +18,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Ex2_1c" />
-        <activity android:name=".Ex2_1b" />
-        <activity android:name=".Ex2_1a" />
+        <activity android:name=".Ex2_1c">
+        </activity>
+        <activity android:name=".Ex2_1b">
+        </activity>
+        <activity android:name=".Ex2_1a">
+
+        </activity>
         <activity android:name=".Ex1_5" />
         <activity android:name=".Ex1_4" />
         <activity android:name=".Ex1_3" />
@@ -27,5 +32,11 @@
         <activity android:name=".Ex1_1" />
         <activity android:name=".Ex3_1"></activity>
     </application>
+
+    <!--<intent-filter>
+    <action android:name="android.intent.action.SEND"/>
+    <category android:name="android.intent.category.DEFAULT"/>
+    <data android:mimeType="text/plain"/>
+    </intent-filter>-->
 
 </manifest>
