@@ -9,34 +9,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.JavaMobileOefeningen">
-        <activity android:name=".Ex2_2b">
-         </activity>
-        <activity android:name=".Ex2_2a">
+        <service
+            android:name=".Ex4_1Service"
+            android:enabled="true"
+            android:exported="true"></service>
+
+        <activity android:name=".Ex4_1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Ex2_1c">
-        </activity>
-        <activity android:name=".Ex2_1b">
-        </activity>
-        <activity android:name=".Ex2_1a">
-
-        </activity>
+        <activity android:name=".Ex3_2" />
+        <activity android:name=".Ex2_3"></activity>
+        <activity android:name=".Ex2_2b" />
+        <activity android:name=".Ex2_2a" />
+        <activity android:name=".Ex2_1c" />
+        <activity android:name=".Ex2_1b" />
+        <activity android:name=".Ex2_1a" />
         <activity android:name=".Ex1_5" />
         <activity android:name=".Ex1_4" />
         <activity android:name=".Ex1_3" />
         <activity android:name=".Ex1_2" />
         <activity android:name=".Ex1_1" />
-        <activity android:name=".Ex3_1"></activity>
+        <activity android:name=".Ex3_1" />
     </application>
-
-    <!--<intent-filter>
-    <action android:name="android.intent.action.SEND"/>
-    <category android:name="android.intent.category.DEFAULT"/>
-    <data android:mimeType="text/plain"/>
-    </intent-filter>-->
 
 </manifest>
